@@ -33,13 +33,19 @@
 - After screenshotting, read the PNG from `temporary_screenshots/` with the Read tool — Claude can see and analyze the image directly.
 - When comparing, be specific: "heading is 32px but reference shows ~24px", "card gap is 16px but should be 24px"
 - Check: spacing/padding, font size/weight/line-height, colors (exact hex), alignment, border-radius, shadows, image sizing
-- ## If the website contains Loop animations DO NOT execute this Screenchot Workflow, instead the user explicitly ask to. 
+- ## If the website contains Loop animations DO NOT execute this Screenchot Workflow, instead the user explicitly ask to.
 
 ## Output Defaults
 - Single `index.html` file, all styles inside the css files, unless user says otherwise
 - Tailwind CSS v4.3.3 installed via CLI: `https://tailwindcss.com/docs/installation/tailwind-cli` with `npm install tailwindcss @tailwindcss/cli`
 - Placeholder images: `https://placehold.co/WIDTHxHEIGHT`
 - Mobile-first responsive
+
+## Setup organization
+- All HTML code generated in the index.html file `src/index.html`.
+- CSS utility classes defined in `src/input.css` with the v4.3.3 estructure.
+- JS code generated exclusively in `src/js` files referenced in `src/index.html`.
+**Do not move any file from location without asking the user previously and aiting for his explicite approval**
 
 ## Brand Assets
 - Always check the `brand_assets/` folder before designing. It may contain logos, color guides, style guides, or images.
