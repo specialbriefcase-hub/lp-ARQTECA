@@ -1,0 +1,2 @@
+[     233ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.whatsapp.com/data/manifest.json:0
+[     329ms] [ERROR] Manifest fetch from https://api.whatsapp.com/data/manifest.json failed, code 404 @ https://api.whatsapp.com/send/?phone=527757511053&text=Hola+ARQTEGA%2C+me+interesa+m%C3%A1s+informaci%C3%B3n.&type=phone_number&app_absent=0:0

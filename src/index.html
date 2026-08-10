@@ -1,12 +1,457 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-MX">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/output.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#FAF7F2">
+  <meta name="description" content="ARQTEGA — Estudio de arquitectura y construcción en Tulancingo, Hidalgo. Diseñamos y construimos con metodología BIM: menos suposiciones, más precisión.">
+  <meta property="og:title" content="ARQTEGA · Arquitectura que se construye con información">
+  <meta property="og:description" content="Estudio de arquitectura y construcción en Tulancingo, Hidalgo. Diseño + obra con metodología BIM.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./src/brand_assets/proyecto1-render.jpeg">
+  <title>ARQTEGA · Arquitectura y Construcción · Tulancingo</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23171717'/%3E%3Cpath d='M8 24 L16 6 L24 24 M11 19 L21 19' stroke='%23FAF7F2' stroke-width='2.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="/src/css/output.css">
 </head>
-<body>
-    Hola mundo 
+<body class="bg-bg text-ink font-body">
+
+  <!-- Skip link -->
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:bg-ink focus:text-bg focus:px-4 focus:py-2 focus:rounded">Saltar al contenido</a>
+
+  <!-- ========== 1. NAVEGACIÓN ========== -->
+  <header id="nav" class="fixed inset-x-0 top-0 z-50 transition-[background-color,backdrop-filter,border-color] duration-300">
+    <nav class="mx-auto max-w-7xl px-5 md:px-8 h-16 md:h-20 flex items-center justify-between">
+      <a href="#inicio" class="block" aria-label="ARQTEGA inicio">
+        <img src="/src/brand_assets/logo-arqtega-removebg-preview.png" alt="ARQTEGA — Arquitectura y Construcción" class="h-9 md:h-11 w-auto">
+      </a>
+
+      <!-- Desktop nav -->
+      <ul class="hidden md:flex items-center gap-8 text-sm font-medium text-ink/90">
+        <li><a href="#inicio" class="hover:text-accent transition-colors duration-200">Inicio</a></li>
+        <li><a href="#nosotros" class="hover:text-accent transition-colors duration-200">Nosotros</a></li>
+        <li><a href="#servicios" class="hover:text-accent transition-colors duration-200">Servicios</a></li>
+        <li><a href="#portafolio" class="hover:text-accent transition-colors duration-200">Portafolio</a></li>
+        <li><a href="#cotizador" class="hover:text-accent transition-colors duration-200">Cotizador</a></li>
+        <li><a href="#contacto" class="hover:text-accent transition-colors duration-200">Contacto</a></li>
+      </ul>
+
+      <!-- Hamburger -->
+      <button id="menu-toggle" type="button"
+        class="md:hidden inline-flex items-center justify-center w-11 h-11 -mr-2 rounded text-ink hover:text-accent transition-colors"
+        aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-menu">
+        <svg id="icon-open" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 7h18M3 12h18M3 17h18"/></svg>
+        <svg id="icon-close" class="w-6 h-6 hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </nav>
+
+    <!-- Mobile menu overlay -->
+    <div id="mobile-menu" class="md:hidden hidden fixed inset-0 z-40 bg-bg pt-20" aria-hidden="true">
+      <ul class="flex flex-col items-center justify-center gap-8 h-full -mt-16 font-display text-3xl text-ink">
+        <li><a href="#inicio" class="mobile-link hover:text-accent transition-colors">Inicio</a></li>
+        <li><a href="#nosotros" class="mobile-link hover:text-accent transition-colors">Nosotros</a></li>
+        <li><a href="#servicios" class="mobile-link hover:text-accent transition-colors">Servicios</a></li>
+        <li><a href="#portafolio" class="mobile-link hover:text-accent transition-colors">Portafolio</a></li>
+        <li><a href="#cotizador" class="mobile-link hover:text-accent transition-colors">Cotizador</a></li>
+        <li><a href="#contacto" class="mobile-link hover:text-accent transition-colors">Contacto</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ========== 2. HERO ========== -->
+    <section id="inicio" class="relative min-h-[100svh] flex items-end overflow-hidden">
+      <img src="/src/brand_assets/proyecto1-render.jpeg" alt="Render exterior de proyecto ARQTEGA en Tulancingo" class="absolute inset-0 w-full h-full object-cover">
+      <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/35 to-black/25" aria-hidden="true"></div>
+      <div class="absolute inset-0 grain" aria-hidden="true"></div>
+
+      <div class="relative mx-auto max-w-7xl px-5 md:px-8 pb-20 md:pb-28 lg:pb-32 pt-32 w-full">
+        <p class="text-white/70 text-xs md:text-sm tracking-[0.25em] uppercase mb-5 md:mb-7 font-medium" data-reveal>
+          Arquitectura · Construcción · BIM
+        </p>
+        <h1 class="font-display font-black tracking-tight text-white text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] leading-[1.02] max-w-4xl" data-reveal>
+          Arquitectura que se construye con información,<br class="hidden md:block">
+          <span class="text-accent-soft">no con suposiciones.</span>
+        </h1>
+        <p class="mt-6 md:mt-8 text-white/85 text-lg md:text-xl max-w-2xl leading-relaxed font-light" data-reveal>
+          En ARQTEGA diseñamos y construimos en Tulancingo, Hidalgo, con metodología BIM: ves tu proyecto antes de poner el primer ladrillo y controlas cada decisión.
+        </p>
+        <div class="mt-9 md:mt-12 flex flex-col sm:flex-row gap-4" data-reveal>
+          <a href="#cotizador" class="inline-flex items-center justify-center bg-accent hover:bg-accent-deep text-white font-semibold px-7 h-13 rounded-md transition-[background-color,transform] duration-300 hover:translate-y-[-1px] py-3.5">
+            Cotiza tu proyecto
+            <svg class="ml-2 w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#portafolio" class="inline-flex items-center justify-center border-2 border-white/80 hover:border-white hover:bg-white/10 text-white font-semibold px-7 py-3.5 rounded-md transition-[background-color,border-color] duration-300">
+            Ver portafolio
+          </a>
+        </div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <a href="#nosotros" class="absolute bottom-6 left-1/2 -translate-x-1/2 text-white/60 hover:text-white transition-colors" aria-label="Desplazar hacia abajo">
+        <svg class="w-5 h-8 animate-bounce" viewBox="0 0 24 40" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 4v32M5 28l7 7 7-7" stroke-linecap="round"/></svg>
+      </a>
+    </section>
+
+    <!-- ========== 3. NOSOTROS ========== -->
+    <section id="nosotros" class="py-24 md:py-32 lg:py-40">
+      <div class="mx-auto max-w-7xl px-5 md:px-8 grid md:grid-cols-2 gap-12 md:gap-16 lg:gap-24 items-center">
+        <div class="relative overflow-hidden rounded-lg aspect-[4/5] md:aspect-[3/4] order-2 md:order-1" data-reveal>
+          <img src="/src/brand_assets/proyecto1-render-int.jpeg" alt="Interior diseñado por ARQTEGA con bóveda de ladrillo y madera" class="absolute inset-0 w-full h-full object-cover">
+          <div class="absolute inset-0 grain" aria-hidden="true"></div>
+          <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/60 to-transparent text-white">
+            <p class="text-xs tracking-[0.2em] uppercase opacity-80">Casa Regional Mexicana · 2024</p>
+            <p class="mt-2 font-display text-xl">245 m² · Tulancingo</p>
+          </div>
+        </div>
+
+        <div class="order-1 md:order-2" data-reveal>
+          <p class="text-accent text-xs tracking-[0.25em] uppercase font-semibold mb-5">Nosotros</p>
+          <h2 class="font-display font-bold tracking-tight text-4xl md:text-5xl lg:text-6xl leading-[1.08] text-ink">
+            Diseñamos y construimos con metodología BIM.
+          </h2>
+          <div class="mt-8 space-y-5 text-ink-soft text-base md:text-lg leading-[1.75]">
+            <p>
+              Somos un estudio de arquitectura y construcción en Tulancingo, Hidalgo, con cuatro años acompañando a familias y desarrolladores en proyectos residenciales y comerciales. Trabajamos diseño y obra bajo el mismo techo: una sola visión, una sola responsabilidad.
+            </p>
+            <p>
+              La diferencia está en cómo lo hacemos. Modelamos cada proyecto en BIM antes de levantar un muro, así puedes recorrer tu casa o local en renders y maquetas digitales, revisar los planos por planta y entender el costo antes de empezar. Lo que ves en pantalla es lo que vas a recibir en obra.
+            </p>
+            <p>
+              Operamos en Tulancingo y el centro de Hidalgo: Mineral de la Reforma, Pachuca, Cuautepec, Singuilucan y municipios vecinos. Si tu terreno está en la región, hablamos el mismo idioma técnico y el mismo calendario.
+            </p>
+          </div>
+          <p class="mt-10 font-display italic text-2xl md:text-3xl text-ink/85 leading-snug">
+            "Cuatro años construyendo con la precisión que tu proyecto merece."
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 4. SERVICIOS ========== -->
+    <section id="servicios" class="py-24 md:py-32 bg-surface border-y border-line">
+      <div class="mx-auto max-w-7xl px-5 md:px-8">
+        <div class="max-w-3xl" data-reveal>
+          <p class="text-accent text-xs tracking-[0.25em] uppercase font-semibold mb-5">Servicios</p>
+          <h2 class="font-display font-bold tracking-tight text-4xl md:text-5xl lg:text-6xl leading-[1.08] text-ink">
+            Lo que hacemos.
+          </h2>
+          <p class="mt-6 text-ink-soft text-lg leading-[1.7] max-w-2xl">
+            Cuatro servicios que cubren todo el ciclo de tu proyecto, desde el primer boceto hasta la entrega de llaves.
+          </p>
+        </div>
+
+        <ul class="mt-14 md:mt-20 grid sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-6">
+          <li class="group bg-bg border border-line hover:border-accent rounded-lg p-7 md:p-8 transition-[border-color,transform,box-shadow] duration-300 hover:translate-y-[-2px] hover:shadow-card" data-reveal>
+            <div class="w-12 h-12 rounded-md bg-accent/10 text-accent flex items-center justify-center transition-transform duration-300 group-hover:translate-y-[-2px]">
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6"/></svg>
+            </div>
+            <h3 class="mt-6 font-display font-bold text-xl text-ink">Diseño arquitectónico</h3>
+            <p class="mt-3 text-ink-soft text-sm md:text-base leading-relaxed">
+              Proyectos residenciales y comerciales con metodología BIM. Bocetos, anteproyecto y ejecutivo en un mismo modelo.
+            </p>
+          </li>
+
+          <li class="group bg-bg border border-line hover:border-accent rounded-lg p-7 md:p-8 transition-[border-color,transform,box-shadow] duration-300 hover:translate-y-[-2px] hover:shadow-card" data-reveal>
+            <div class="w-12 h-12 rounded-md bg-accent/10 text-accent flex items-center justify-center transition-transform duration-300 group-hover:translate-y-[-2px]">
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 17h20M4 17v3M20 17v3M6 17V8h12v9M9 8V4h6v4"/></svg>
+            </div>
+            <h3 class="mt-6 font-display font-bold text-xl text-ink">Construcción</h3>
+            <p class="mt-3 text-ink-soft text-sm md:text-base leading-relaxed">
+              Ejecución de obra con supervisión técnica constante. Cronograma, costos y calidad bajo control semanal.
+            </p>
+          </li>
+
+          <li class="group bg-bg border border-line hover:border-accent rounded-lg p-7 md:p-8 transition-[border-color,transform,box-shadow] duration-300 hover:translate-y-[-2px] hover:shadow-card" data-reveal>
+            <div class="w-12 h-12 rounded-md bg-accent/10 text-accent flex items-center justify-center transition-transform duration-300 group-hover:translate-y-[-2px]">
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 3 7v10l9 5 9-5V7l-9-5zM3 7l9 5 9-5M12 12v10"/></svg>
+            </div>
+            <h3 class="mt-6 font-display font-bold text-xl text-ink">Modelado BIM</h3>
+            <p class="mt-3 text-ink-soft text-sm md:text-base leading-relaxed">
+              Maquetas digitales, planos 2D y renders fotorrealistas. Visualiza el resultado antes de construir.
+            </p>
+          </li>
+
+          <li class="group bg-bg border border-line hover:border-accent rounded-lg p-7 md:p-8 transition-[border-color,transform,box-shadow] duration-300 hover:translate-y-[-2px] hover:shadow-card" data-reveal>
+            <div class="w-12 h-12 rounded-md bg-accent/10 text-accent flex items-center justify-center transition-transform duration-300 group-hover:translate-y-[-2px]">
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a4 4 0 0 1-4 4H7l-4 4V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4zM8 10h8M8 14h5"/></svg>
+            </div>
+            <h3 class="mt-6 font-display font-bold text-xl text-ink">Asesoría</h3>
+            <p class="mt-3 text-ink-soft text-sm md:text-base leading-relaxed">
+              Consultoría para clientes que desarrollan por su cuenta. Revisamos planos, presupuestos y contratistas.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========== 5. PORTAFOLIO ========== -->
+    <section id="portafolio" class="py-24 md:py-32 lg:py-40">
+      <div class="mx-auto max-w-7xl px-5 md:px-8">
+        <div class="max-w-3xl" data-reveal>
+          <p class="text-accent text-xs tracking-[0.25em] uppercase font-semibold mb-5">Portafolio</p>
+          <h2 class="font-display font-bold tracking-tight text-4xl md:text-5xl lg:text-6xl leading-[1.08] text-ink">
+            Proyectos que hablan por sí solos.
+          </h2>
+          <p class="mt-6 text-ink-soft text-lg leading-[1.7] max-w-2xl">
+            Cada proyecto se entrega con renders, maquetas y planos ejecutivos. Toca una imagen para ver el recorrido completo.
+          </p>
+        </div>
+
+        <div class="mt-14 md:mt-20 grid md:grid-cols-3 gap-6 md:gap-8">
+          <!-- Project 1 -->
+          <button type="button" class="group text-left portfolio-card rounded-lg overflow-hidden bg-surface border border-line hover:shadow-card-hover transition-[transform,box-shadow] duration-300 hover:translate-y-[-2px]"
+            data-project="0" data-reveal>
+            <div class="relative aspect-[4/3] overflow-hidden bg-muted">
+              <img src="/src/brand_assets/proyecto1-render.jpeg" alt="Casa Regional Mexicana — render exterior" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]">
+              <div class="absolute top-3 left-3 bg-bg/90 text-ink text-xs font-semibold px-2.5 py-1 rounded">01</div>
+            </div>
+            <div class="p-5 md:p-6">
+              <h3 class="font-display font-bold text-xl text-ink group-hover:text-accent transition-colors">Casa Regional Mexicana</h3>
+              <p class="mt-2 text-ink-soft text-sm leading-relaxed">Residencia unifamiliar con bóveda de ladrillo, integración a patio y lenguaje regional contemporáneo.</p>
+              <p class="mt-4 text-xs text-ink/60 tracking-wider uppercase">Tulancingo · 2024 · 245 m²</p>
+            </div>
+          </button>
+
+          <!-- Project 2 -->
+          <button type="button" class="group text-left portfolio-card rounded-lg overflow-hidden bg-surface border border-line hover:shadow-card-hover transition-[transform,box-shadow] duration-300 hover:translate-y-[-2px] md:translate-y-8"
+            data-project="1" data-reveal>
+            <div class="relative aspect-[4/3] overflow-hidden bg-muted">
+              <img src="https://placehold.co/1600x1000/2A2520/D4A574?text=Proyecto+02&font=playfair" alt="Residencia Minimalista — render exterior" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]">
+              <div class="absolute top-3 left-3 bg-bg/90 text-ink text-xs font-semibold px-2.5 py-1 rounded">02</div>
+            </div>
+            <div class="p-5 md:p-6">
+              <h3 class="font-display font-bold text-xl text-ink group-hover:text-accent transition-colors">Residencia Minimalista</h3>
+              <p class="mt-2 text-ink-soft text-sm leading-relaxed">Volúmenes puros, luz controlada y paleta monocromática. Una casa que se vive desde el interior.</p>
+              <p class="mt-4 text-xs text-ink/60 tracking-wider uppercase">Pachuca · 2025 · 180 m²</p>
+            </div>
+          </button>
+
+          <!-- Project 3 -->
+          <button type="button" class="group text-left portfolio-card rounded-lg overflow-hidden bg-surface border border-line hover:shadow-card-hover transition-[transform,box-shadow] duration-300 hover:translate-y-[-2px]"
+            data-project="2" data-reveal>
+            <div class="relative aspect-[4/3] overflow-hidden bg-muted">
+              <img src="https://placehold.co/1600x1000/2A2520/D4A574?text=Proyecto+03&font=playfair" alt="Local Comercial — render exterior" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]">
+              <div class="absolute top-3 left-3 bg-bg/90 text-ink text-xs font-semibold px-2.5 py-1 rounded">03</div>
+            </div>
+            <div class="p-5 md:p-6">
+              <h3 class="font-display font-bold text-xl text-ink group-hover:text-accent transition-colors">Local Comercial</h3>
+              <p class="mt-2 text-ink-soft text-sm leading-relaxed">Adaptación de local comercial con fachada activa, doble altura y criterios de eficiencia energética.</p>
+              <p class="mt-4 text-xs text-ink/60 tracking-wider uppercase">Tulancingo · 2025 · 95 m²</p>
+            </div>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 6. COTIZADOR ========== -->
+    <section id="cotizador" class="py-24 md:py-32 bg-surface border-y border-line">
+      <div class="mx-auto max-w-7xl px-5 md:px-8 grid lg:grid-cols-5 gap-10 lg:gap-16 items-start">
+        <div class="lg:col-span-3" data-reveal>
+          <p class="text-accent text-xs tracking-[0.25em] uppercase font-semibold mb-5">Cotizador</p>
+          <h2 class="font-display font-bold tracking-tight text-4xl md:text-5xl leading-[1.08] text-ink">
+            Cuéntanos sobre tu proyecto.
+          </h2>
+          <p class="mt-5 text-ink-soft text-lg leading-[1.7] max-w-xl">
+            Selecciona dos datos y te enviamos un estimado inicial por WhatsApp en menos de 24 horas.
+          </p>
+
+          <form id="cotizador-form" class="mt-10 space-y-5 max-w-xl">
+            <div>
+              <label for="tipo" class="block text-sm font-semibold text-ink mb-2">Tipo de proyecto</label>
+              <select id="tipo" name="tipo" required
+                class="w-full h-13 px-4 bg-bg border border-line rounded-md text-ink focus:border-accent focus:ring-0 transition-colors duration-200 appearance-none cursor-pointer">
+                <option value="" disabled selected>Elige una opción</option>
+                <option value="Casa habitación">Casa habitación</option>
+                <option value="Local comercial">Local comercial</option>
+                <option value="Remodelación">Remodelación</option>
+                <option value="Otro">Otro</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="m2" class="block text-sm font-semibold text-ink mb-2">m² aproximados</label>
+              <select id="m2" name="m2" required
+                class="w-full h-13 px-4 bg-bg border border-line rounded-md text-ink focus:border-accent focus:ring-0 transition-colors duration-200 appearance-none cursor-pointer">
+                <option value="" disabled selected>Elige un rango</option>
+                <option value="Menos de 100">Menos de 100 m²</option>
+                <option value="100–200">100 – 200 m²</option>
+                <option value="200–400">200 – 400 m²</option>
+                <option value="Más de 400">Más de 400 m²</option>
+              </select>
+            </div>
+
+            <button type="submit"
+              class="w-full sm:w-auto inline-flex items-center justify-center bg-accent hover:bg-accent-deep text-white font-semibold px-8 h-13 rounded-md transition-[background-color,transform] duration-300 hover:translate-y-[-1px] py-3.5">
+              Enviar por WhatsApp
+              <svg class="ml-2 w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.4zM12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 5L2 22l5.2-1.4c1.4.8 3.1 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.2.8.9-3.1-.2-.3C3.6 14.7 3 13.4 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9z"/></svg>
+            </button>
+          </form>
+        </div>
+
+        <aside class="lg:col-span-2" data-reveal>
+          <div class="bg-ink text-bg rounded-lg p-8 md:p-10">
+            <p class="text-accent-soft text-xs tracking-[0.25em] uppercase font-semibold mb-4">O directo</p>
+            <p class="font-display text-2xl md:text-3xl leading-snug">
+              Escríbenos por WhatsApp y un arquitecto te atiende personalmente.
+            </p>
+            <a href="https://wa.me/527757511053?text=Hola%20ARQTEGA%2C%20me%20interesa%20m%C3%A1s%20informaci%C3%B3n." target="_blank" rel="noopener"
+              class="mt-7 inline-flex items-center text-lg font-semibold text-accent-soft hover:text-white transition-colors">
+              775 751 1053
+              <svg class="ml-2 w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </a>
+            <p class="mt-2 text-bg/60 text-sm">Lunes a viernes · 9:00 – 18:00</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ========== 7. CONTACTO ========== -->
+    <section id="contacto" class="py-24 md:py-32">
+      <div class="mx-auto max-w-7xl px-5 md:px-8">
+        <div class="max-w-3xl" data-reveal>
+          <p class="text-accent text-xs tracking-[0.25em] uppercase font-semibold mb-5">Contacto</p>
+          <h2 class="font-display font-bold tracking-tight text-4xl md:text-5xl lg:text-6xl leading-[1.08] text-ink">
+            Hablemos.
+          </h2>
+          <p class="mt-6 text-ink-soft text-lg leading-[1.7] max-w-2xl">
+            Tres canales abiertos. Elige el que prefieras y te respondemos lo antes posible.
+          </p>
+        </div>
+
+        <div class="mt-14 md:mt-20 grid sm:grid-cols-3 gap-5 md:gap-6 max-w-5xl">
+          <a href="https://wa.me/527757511053?text=Hola%20ARQTEGA%2C%20me%20interesa%20m%C3%A1s%20informaci%C3%B3n." target="_blank" rel="noopener"
+            class="group block bg-surface border border-line hover:border-accent rounded-lg p-7 transition-[border-color,transform,box-shadow] duration-300 hover:translate-y-[-2px] hover:shadow-card" data-reveal>
+            <div class="w-11 h-11 rounded-md bg-accent/10 text-accent flex items-center justify-center">
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.4zM12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 5L2 22l5.2-1.4c1.4.8 3.1 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.2.8.9-3.1-.2-.3C3.6 14.7 3 13.4 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9z"/></svg>
+            </div>
+            <p class="mt-5 text-xs text-ink/60 tracking-wider uppercase">WhatsApp</p>
+            <p class="mt-1 font-display font-bold text-xl text-ink group-hover:text-accent transition-colors">Enviar mensaje</p>
+            <p class="mt-1 text-ink-soft text-sm">775 751 1053</p>
+          </a>
+
+          <a href="https://instagram.com/arqtega" target="_blank" rel="noopener"
+            class="group block bg-surface border border-line hover:border-accent rounded-lg p-7 transition-[border-color,transform,box-shadow] duration-300 hover:translate-y-[-2px] hover:shadow-card" data-reveal>
+            <div class="w-11 h-11 rounded-md bg-accent/10 text-accent flex items-center justify-center">
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.8" fill="currentColor"/></svg>
+            </div>
+            <p class="mt-5 text-xs text-ink/60 tracking-wider uppercase">Instagram</p>
+            <p class="mt-1 font-display font-bold text-xl text-ink group-hover:text-accent transition-colors">@arqtega</p>
+            <p class="mt-1 text-ink-soft text-sm">Renders, obras y proceso</p>
+          </a>
+
+          <a href="https://facebook.com/arqtega" target="_blank" rel="noopener"
+            class="group block bg-surface border border-line hover:border-accent rounded-lg p-7 transition-[border-color,transform,box-shadow] duration-300 hover:translate-y-[-2px] hover:shadow-card" data-reveal>
+            <div class="w-11 h-11 rounded-md bg-accent/10 text-accent flex items-center justify-center">
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.6 9.9V14.9H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.7l-.4 2.9h-2.3v7A10 10 0 0 0 22 12z"/></svg>
+            </div>
+            <p class="mt-5 text-xs text-ink/60 tracking-wider uppercase">Facebook</p>
+            <p class="mt-1 font-display font-bold text-xl text-ink group-hover:text-accent transition-colors">/arqtega</p>
+            <p class="mt-1 text-ink-soft text-sm">Proyectos y noticias</p>
+          </a>
+        </div>
+
+        <p class="mt-12 text-ink-soft text-sm tracking-wide" data-reveal>
+          Lunes a viernes · 9:00 – 18:00 · Tulancingo, Hidalgo.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== 8. FOOTER ========== -->
+  <footer class="bg-ink text-bg py-16 md:py-20">
+    <div class="mx-auto max-w-7xl px-5 md:px-8 grid md:grid-cols-3 gap-10 md:gap-8">
+      <div>
+        <img src="/src/brand_assets/logo-arqtega-removebg-preview.png" alt="ARQTEGA" class="h-10 w-auto brightness-0 invert">
+        <p class="mt-5 text-bg/70 text-sm leading-relaxed max-w-xs">
+          Arquitectura y construcción en Tulancingo, Hidalgo. Diseño + obra con metodología BIM.
+        </p>
+      </div>
+
+      <nav aria-label="Navegación footer">
+        <p class="text-xs tracking-[0.25em] uppercase text-bg/50 mb-4">Navegación</p>
+        <ul class="space-y-2 text-sm">
+          <li><a href="#inicio" class="hover:text-accent-soft transition-colors">Inicio</a></li>
+          <li><a href="#nosotros" class="hover:text-accent-soft transition-colors">Nosotros</a></li>
+          <li><a href="#servicios" class="hover:text-accent-soft transition-colors">Servicios</a></li>
+          <li><a href="#portafolio" class="hover:text-accent-soft transition-colors">Portafolio</a></li>
+          <li><a href="#cotizador" class="hover:text-accent-soft transition-colors">Cotizador</a></li>
+          <li><a href="#contacto" class="hover:text-accent-soft transition-colors">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <p class="text-xs tracking-[0.25em] uppercase text-bg/50 mb-4">Síguenos</p>
+        <ul class="flex gap-3">
+          <li>
+            <a href="https://wa.me/527757511053" target="_blank" rel="noopener" aria-label="WhatsApp"
+              class="w-10 h-10 rounded-md bg-bg/10 hover:bg-accent flex items-center justify-center transition-colors duration-200">
+              <svg class="w-5 h-5 md:w-8 md:h-8" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.4zM12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 5L2 22l5.2-1.4c1.4.8 3.1 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.2.8.9-3.1-.2-.3C3.6 14.7 3 13.4 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9z"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com/arqtega" target="_blank" rel="noopener" aria-label="Instagram"
+              class="w-10 h-10 rounded-md bg-bg/10 hover:bg-accent flex items-center justify-center transition-colors duration-200">
+              <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.8" fill="currentColor"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://facebook.com/arqtega" target="_blank" rel="noopener" aria-label="Facebook"
+              class="w-10 h-10 rounded-md bg-bg/10 hover:bg-accent flex items-center justify-center transition-colors duration-200">
+              <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9V14.9H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.7l-.4 2.9h-2.3v7A10 10 0 0 0 22 12z"/></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mx-auto max-w-7xl px-5 md:px-8 mt-12 pt-8 border-t border-bg/10 flex flex-col md:flex-row gap-4 md:items-center md:justify-between text-xs text-bg/60">
+      <p>© 2026 ARQTEGA · Arquitectura y Construcción</p>
+      <p class="tracking-wide">Sitio desarrollado con metodología BIM.</p>
+    </div>
+  </footer>
+
+  <!-- ========== FLOATING WHATSAPP ========== -->
+  <a id="wa-float" href="https://wa.me/527757511053?text=Hola%20ARQTEGA%2C%20me%20interesa%20m%C3%A1s%20informaci%C3%B3n." target="_blank" rel="noopener"
+    aria-label="Escríbenos por WhatsApp"
+    class="fixed bottom-5 right-5 md:bottom-8 md:right-8 z-40 w-14 h-14 md:w-16 md:h-16 rounded-full bg-accent hover:bg-accent-deep text-white flex items-center justify-center shadow-float transition-[transform,background-color,opacity] duration-300 hover:scale-105"
+    data-show="true">
+    <svg class="w-7 h-7 md:w-8 md:h-8" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.4zM12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 5L2 22l5.2-1.4c1.4.8 3.1 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.2.8.9-3.1-.2-.3C3.6 14.7 3 13.4 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9z"/></svg>
+  </a>
+
+  <!-- ========== LIGHTBOX ========== -->
+  <dialog id="lightbox" class="lightbox" aria-label="Galería del proyecto">
+    <div class="relative w-full h-full flex items-center justify-center px-4 md:px-16 py-16 md:py-20">
+      <button type="button" data-lb-close aria-label="Cerrar"
+        class="absolute top-4 right-4 md:top-6 md:right-6 w-11 h-11 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition-colors z-10">
+        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+
+      <button type="button" data-lb-prev aria-label="Imagen anterior"
+        class="absolute left-3 md:left-8 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition-colors z-10">
+        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+
+      <button type="button" data-lb-next aria-label="Siguiente imagen"
+        class="absolute right-3 md:right-8 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition-colors z-10">
+        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg>
+      </button>
+
+      <figure class="w-full max-w-5xl flex flex-col items-center">
+        <img id="lb-image" src="" alt="" class="max-h-[70vh] w-auto max-w-full object-contain rounded shadow-2xl">
+        <figcaption class="mt-5 md:mt-7 text-center max-w-2xl">
+          <p id="lb-project" class="text-accent-soft text-xs tracking-[0.25em] uppercase font-semibold"></p>
+          <p id="lb-title" class="mt-2 font-display font-bold text-2xl md:text-3xl text-white"></p>
+          <p id="lb-desc" class="mt-2 text-white/70 text-sm md:text-base leading-relaxed"></p>
+          <p id="lb-counter" class="mt-4 text-white/50 text-xs tracking-wider"></p>
+        </figcaption>
+      </figure>
+    </div>
+  </dialog>
+
+  <script src="/src/js/main.js" defer></script>
 </body>
 </html>

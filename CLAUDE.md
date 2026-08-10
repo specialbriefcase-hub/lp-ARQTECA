@@ -10,7 +10,7 @@
 - I want you to be totally direct, objective and honest, don't say everything that yes, challenge my assumptions when they are weak. If I'm wrong with something, say "You're wrong", explain why and suggest a better solution. Rate ideas HONESTLY from 1 to 10 and nullify any bias or hallucination that may arise through development and execution.
 
 ## Always Do First
-- **Invoke the `ui-ux-pro-max-skill` skill** before writing any frontend code, every session, no exceptions.
+- **Invoke the `ui-ux-pro-max` skill** before writing any frontend code, every session, no exceptions.
 
 ## Reference Images
 - If a reference image is provided: match layout, spacing, typography, and color exactly. Swap in placeholder content (images via `https://placehold.co/`, generic copy). Do not improve or add to the design.
@@ -36,7 +36,7 @@
 - ## If the website contains Loop animations DO NOT execute this Screenchot Workflow, instead the user explicitly ask to.
 
 ## Output Defaults
-- Single `index.html` file, all styles inside the css files, unless user says otherwise
+- Single `index.html` file, all styles inside the CSS files, unless user says otherwise
 - Tailwind CSS v4.3.3 installed via CLI: `https://tailwindcss.com/docs/installation/tailwind-cli` with `npm install tailwindcss @tailwindcss/cli`
 - Placeholder images: `https://placehold.co/WIDTHxHEIGHT`
 - Mobile-first responsive

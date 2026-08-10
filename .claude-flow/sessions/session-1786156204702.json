@@ -1,0 +1,14 @@
+{
+  "id": "session-1786156204702",
+  "startedAt": "2026-08-08T02:30:04.702Z",
+  "cwd": "/Users/eloy/Library/Mobile Documents/com~apple~CloudDocs/Proyectos_Clientes/ARQTEGA/lp-arqtega",
+  "context": {},
+  "metrics": {
+    "edits": 0,
+    "commands": 0,
+    "tasks": 0,
+    "errors": 0
+  },
+  "endedAt": "2026-08-08T02:41:00.786Z",
+  "duration": 656084
+}

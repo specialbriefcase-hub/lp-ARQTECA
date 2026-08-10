@@ -1,0 +1,7 @@
+[       2ms] [LOG] Live reload enabled. @ http://127.0.0.1:5500/src/index.html:482
+[   75325ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   76425ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   77322ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   78055ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   80005ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   92271ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0

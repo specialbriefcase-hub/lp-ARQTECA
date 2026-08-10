@@ -1,0 +1,441 @@
+[       5ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[       6ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[       9ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[       9ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[     116ms] [LOG] Live reload enabled. @ http://127.0.0.1:5500/src/index.html:482
+[     389ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[     390ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[     390ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[     390ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[     541ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[     542ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[     542ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[     548ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[     703ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[     703ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[     704ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[     704ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[     858ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[     859ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[     860ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[     860ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    1013ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    1013ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    1014ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    1014ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    1158ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    1158ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    1159ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    1159ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    1369ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    1369ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    1369ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    1369ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    1570ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    1571ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    1571ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    1571ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    1768ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    1768ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    1769ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    1769ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    1982ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    1982ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    1982ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    1982ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    2174ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    2174ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    2175ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    2175ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    2375ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    2376ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    2377ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    2377ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    2572ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    2572ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    2572ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    2572ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    2781ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    2781ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    2782ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    2782ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    2979ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    2980ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    2981ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    2981ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    3177ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    3177ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    3178ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    3178ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    3380ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    3380ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    3381ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    3381ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    3581ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    3582ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    3582ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    3582ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    3784ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    3784ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    3785ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    3785ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    3978ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    3980ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    3980ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    3980ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    4188ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    4188ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    4189ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    4189ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    4388ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    4388ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    4388ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    4388ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    4592ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    4592ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    4592ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    4592ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    4787ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    4788ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    4788ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    4788ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    4987ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    4987ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    4988ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    4988ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    5194ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    5194ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    5194ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    5194ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:491
+[    5392ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    5392ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    5393ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    5393ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    5598ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    5599ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    5599ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    5599ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    5802ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    5802ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    5803ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    5803ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    6001ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    6002ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    6002ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    6002ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    6199ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    6199ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    6200ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    6200ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    6405ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    6406ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    6406ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    6406ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    6608ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    6608ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    6608ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    6608ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    6814ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    6814ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    6815ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    6815ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    7013ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    7014ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    7015ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    7015ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    7209ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    7210ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    7210ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    7210ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    7356ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    7357ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    7357ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    7357ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    7575ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    7576ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    7577ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    7577ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    7765ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    7765ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    7766ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    7766ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    7969ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    7970ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    7970ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    7970ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    8179ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    8179ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    8179ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    8179ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    8373ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    8374ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    8374ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    8374ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    8585ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    8585ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    8585ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    8585ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    8796ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    8797ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    8798ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    8798ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    8983ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    8984ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    8984ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    8984ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    9187ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    9187ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    9187ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    9187ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    9383ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    9384ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    9384ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    9384ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    9582ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    9583ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    9584ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    9584ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    9788ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    9788ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    9789ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    9789ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[    9994ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[    9994ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[    9995ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[    9995ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   10197ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   10198ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   10199ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   10199ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   10430ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   10430ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   10431ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   10431ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   10602ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   10602ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   10603ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   10603ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   10811ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   10811ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   10811ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   10811ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   11005ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   11005ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   11005ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   11005ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   11200ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   11200ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   11207ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   11207ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   11410ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   11410ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   11411ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   11411ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   11606ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   11614ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   11614ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   11614ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   11812ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   11812ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   11812ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   11812ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   12009ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   12017ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   12018ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   12018ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   12220ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   12220ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   12220ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   12221ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   12421ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   12430ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   12430ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   12430ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   12628ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   12628ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   12628ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   12628ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   12817ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   12826ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   12826ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   12826ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   13021ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   13021ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   13030ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   13030ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   13228ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   13228ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   13229ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   13229ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   13419ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   13419ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   13427ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   13427ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   13626ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   13634ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   13634ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   13634ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   13840ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   13840ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   13840ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   13840ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   14030ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   14031ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   14041ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   14041ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   14241ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   14241ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   14241ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   14241ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   14437ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   14446ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   14446ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   14446ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   14638ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   14638ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   14638ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   14638ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   14843ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   14843ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   14843ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   14843ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   15035ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   15035ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   15043ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   15043ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   15244ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   15244ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   15244ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   15244ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   15442ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   15442ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   15442ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   15442ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   15638ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   15639ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   15639ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   15639ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   15879ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   15893ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   15893ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   15893ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:493
+[   16136ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   16144ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   16144ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   16144ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   16290ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   16298ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   16299ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   16299ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   16493ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   16501ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   16501ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   16501ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   16656ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   16656ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   16656ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   16656ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   16911ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   16919ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   16919ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   16919ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   17065ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   17073ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   17073ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   17073ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   17276ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   17276ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   17276ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   17276ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   17535ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   17543ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   17544ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   17544ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   17692ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   17700ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   17700ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   17700ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   17894ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   17902ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   17903ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   17903ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   18100ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   18101ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   18102ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   18102ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   18319ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   18319ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   18319ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   18319ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   18492ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   18493ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   18493ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   18493ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   18696ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   18696ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   18697ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   18697ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   18895ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   18895ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   18903ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   18903ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   19099ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   19100ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   19100ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   19100ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   19308ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   19309ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   19309ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   19309ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   19554ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   19554ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   19555ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   19555ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   19827ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   19828ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   19828ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   19829ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   20040ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   20040ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   20041ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   20041ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   20240ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   20240ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   20241ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   20241ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   20439ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   20440ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   20441ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   20441ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   20641ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   20642ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   20643ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   20643ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   20851ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   20851ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   20851ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   20851ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   21024ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   21024ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   21024ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   21024ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   21217ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   21225ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   21225ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   21225ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   21420ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   21429ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   21429ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   21429ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   21623ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   21631ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   21632ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   21632ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   21824ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   21825ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   21833ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   21833ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
+[   22029ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/proyecto1-render.jpeg:0
+[   22038ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/brand_assets/logo-arqtega.jpg:0
+[   22038ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5500/src/src/js/main.js:0
+[   22038ms] [ERROR] Refused to execute script from 'http://127.0.0.1:5500/src/src/js/main.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ http://127.0.0.1:5500/src/index.html:0
