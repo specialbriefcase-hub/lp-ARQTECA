@@ -94,6 +94,172 @@ img { display: block; max-width: 100%; }
   html { scroll-behavior: auto; }
 }
 
+/* ============== Mobile menu panel (right-side drawer) ==============
+   Driven by data-state="open" / data-state="closed" on #mobile-menu.
+   Animates transform + opacity only. Honors prefers-reduced-motion via the
+   global block above. Safe-area insets keep it flush on notched devices. */
+.menu-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  background: rgba(23, 23, 23, 0.42);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 250ms ease-out;
+}
+.menu-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 50;
+  width: 88%;
+  max-width: 24rem; /* max-w-sm */
+  background: var(--color-bg);
+  display: flex;
+  flex-direction: column;
+  transform: translateX(100%);
+  will-change: transform;
+  transition: transform 380ms cubic-bezier(0.32, 0.72, 0, 1);
+  box-shadow:
+    -1px 0 2px rgba(23, 23, 23, 0.04),
+    -16px 0 40px rgba(23, 23, 23, 0.10);
+  padding-top: env(safe-area-inset-top, 0);
+  padding-bottom: env(safe-area-inset-bottom, 0);
+}
+.menu-panel[data-state="open"] {
+  transform: translateX(0);
+}
+.menu-backdrop[data-state="open"] {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Nav rows */
+.menu-link {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+  min-height: 3rem; /* 48px touch */
+  padding: 0.5rem 1.25rem;
+  color: var(--color-ink);
+  border-bottom: 1px solid var(--color-line);
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 1.375rem; /* text-2xl */
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 320ms ease-out, transform 320ms ease-out, color 180ms ease-out;
+  transition-delay: 0ms;
+}
+.menu-panel[data-state="open"] .menu-link {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: calc(var(--i, 0) * 55ms + 120ms);
+}
+.menu-link:hover,
+.menu-link:focus-visible {
+  color: var(--color-accent-deep);
+}
+.menu-link[aria-current="page"] {
+  color: var(--color-accent-deep);
+}
+.menu-link[aria-current="page"] .menu-rule {
+  transform: scaleX(2.25);
+}
+.menu-index {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 0.8125rem; /* text-sm */
+  font-variant-numeric: tabular-nums;
+  color: var(--color-ink-soft);
+  opacity: 0.55;
+  letter-spacing: 0.04em;
+  min-width: 2ch;
+}
+.menu-rule {
+  display: inline-block;
+  width: 2rem;
+  height: 1px;
+  background: var(--color-accent);
+  margin-left: auto;
+  transform-origin: left center;
+  transition: transform 220ms cubic-bezier(0.32, 0.72, 0, 1);
+}
+.menu-link:hover .menu-rule,
+.menu-link:focus-visible .menu-rule {
+  transform: scaleX(1.6);
+}
+
+/* Eyebrow + footer label */
+.menu-eyebrow {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 0.6875rem; /* text-xs */
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 320ms ease-out, transform 320ms ease-out;
+  transition-delay: 0ms;
+}
+.menu-panel[data-state="open"] .menu-eyebrow {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 60ms;
+}
+
+/* CTA — full-width amber pill */
+.menu-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.875rem 1.25rem;
+  border-radius: 9999px;
+  background: var(--color-accent);
+  color: #ffffff;
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 0.9375rem;
+  letter-spacing: 0.01em;
+  border: 1px solid transparent;
+  transition: opacity 320ms ease-out, transform 320ms ease-out, background-color 180ms ease-out;
+  transition-delay: 0ms;
+}
+.menu-panel[data-state="open"] .menu-cta {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 480ms;
+}
+.menu-cta:hover,
+.menu-cta:focus-visible {
+  background: var(--color-accent-deep);
+}
+.menu-cta:active {
+  transform: scale(0.985);
+}
+
+/* Reduced motion hardening for the drawer (global rule already kills most;
+   this guarantees an instant show/hide for users who opt out) */
+@media (prefers-reduced-motion: reduce) {
+  .menu-backdrop,
+  .menu-panel,
+  .menu-link,
+  .menu-eyebrow,
+  .menu-cta,
+  .menu-rule {
+    transition-duration: 0.001ms !important;
+    transition-delay: 0ms !important;
+  }
+}
+
 /* Dialog defaults — we style the lightbox via classes */
 dialog.lightbox {
   background: transparent;

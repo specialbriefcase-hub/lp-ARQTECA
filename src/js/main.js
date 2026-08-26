@@ -77,40 +77,139 @@
 
   /* ---------------- Mobile menu ---------------- */
   const menuBtn = document.getElementById('menu-toggle');
+  const menuCloseBtn = document.getElementById('menu-close');
   const mobileMenu = document.getElementById('mobile-menu');
+  const menuBackdrop = document.getElementById('menu-backdrop');
   const iconOpen = document.getElementById('icon-open');
   const iconClose = document.getElementById('icon-close');
-  const mobileLinks = mobileMenu ? mobileMenu.querySelectorAll('.mobile-link') : [];
+  const mobileLinks = mobileMenu ? mobileMenu.querySelectorAll('[data-menu-link]') : [];
+  const menuCloseTriggers = mobileMenu ? mobileMenu.querySelectorAll('[data-menu-close]') : [];
+  let lastFocus = null;
 
-  function closeMenu() {
-    if (!mobileMenu || mobileMenu.classList.contains('hidden')) return;
-    mobileMenu.classList.add('hidden');
-    mobileMenu.setAttribute('aria-hidden', 'true');
-    menuBtn.setAttribute('aria-expanded', 'false');
-    menuBtn.setAttribute('aria-label', 'Abrir menú');
-    iconOpen.classList.remove('hidden');
-    iconClose.classList.add('hidden');
-    document.body.classList.remove('no-scroll');
+  function isOpen() {
+    return mobileMenu && mobileMenu.getAttribute('data-state') === 'open';
   }
+
+  function focusableInPanel() {
+    if (!mobileMenu) return [];
+    return Array.from(mobileMenu.querySelectorAll(
+      'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])'
+    ));
+  }
+
   function openMenu() {
-    mobileMenu.classList.remove('hidden');
+    if (!mobileMenu || isOpen()) return;
+    lastFocus = document.activeElement;
+    mobileMenu.setAttribute('data-state', 'open');
     mobileMenu.setAttribute('aria-hidden', 'false');
+    if (menuBackdrop) {
+      menuBackdrop.setAttribute('data-state', 'open');
+      menuBackdrop.setAttribute('aria-hidden', 'false');
+    }
     menuBtn.setAttribute('aria-expanded', 'true');
     menuBtn.setAttribute('aria-label', 'Cerrar menú');
     iconOpen.classList.add('hidden');
     iconClose.classList.remove('hidden');
     document.body.classList.add('no-scroll');
+    // Wait a tick so the panel finishes its slide-in before stealing focus
+    requestAnimationFrame(() => {
+      const items = focusableInPanel();
+      if (items.length) items[0].focus();
+    });
+  }
+
+  function closeMenu() {
+    if (!mobileMenu || !isOpen()) return;
+    mobileMenu.setAttribute('data-state', 'closed');
+    mobileMenu.setAttribute('aria-hidden', 'true');
+    if (menuBackdrop) {
+      menuBackdrop.setAttribute('data-state', 'closed');
+      menuBackdrop.setAttribute('aria-hidden', 'true');
+    }
+    menuBtn.setAttribute('aria-expanded', 'false');
+    menuBtn.setAttribute('aria-label', 'Abrir menú');
+    iconOpen.classList.remove('hidden');
+    iconClose.classList.add('hidden');
+    document.body.classList.remove('no-scroll');
+    // Return focus to the burger button (or whatever opened the menu)
+    if (lastFocus && typeof lastFocus.focus === 'function') {
+      lastFocus.focus();
+    } else if (menuBtn) {
+      menuBtn.focus();
+    }
   }
 
   if (menuBtn && mobileMenu) {
     menuBtn.addEventListener('click', () => {
-      if (mobileMenu.classList.contains('hidden')) openMenu();
-      else closeMenu();
+      if (isOpen()) closeMenu();
+      else openMenu();
     });
+    if (menuCloseBtn) menuCloseBtn.addEventListener('click', closeMenu);
+    if (menuBackdrop) menuBackdrop.addEventListener('click', closeMenu);
+    menuCloseTriggers.forEach((el) => el.addEventListener('click', closeMenu));
     mobileLinks.forEach((a) => a.addEventListener('click', closeMenu));
+
     document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && !mobileMenu.classList.contains('hidden')) closeMenu();
+      if (!isOpen()) return;
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        closeMenu();
+        return;
+      }
+      // Light focus trap: wrap Tab between first and last focusable items
+      if (e.key === 'Tab') {
+        const items = focusableInPanel();
+        if (!items.length) return;
+        const first = items[0];
+        const last = items[items.length - 1];
+        if (e.shiftKey && document.activeElement === first) {
+          e.preventDefault();
+          last.focus();
+        } else if (!e.shiftKey && document.activeElement === last) {
+          e.preventDefault();
+          first.focus();
+        }
+      }
     });
+
+    // Auto-close when the viewport grows past the mobile breakpoint
+    const mql = window.matchMedia('(min-width: 768px)');
+    const onMqlChange = (ev) => { if (ev.matches && isOpen()) closeMenu(); };
+    if (mql.addEventListener) mql.addEventListener('change', onMqlChange);
+    else if (mql.addListener) mql.addListener(onMqlChange); // legacy fallback
+  }
+
+  /* ---------------- Active-section indicator on the drawer ---------------- */
+  // Toggle aria-current="page" on the matching menu link as the user scrolls.
+  // One observer covers all six sections; we pick the one closest to the top.
+  if (mobileLinks.length && 'IntersectionObserver' in window) {
+    const linkBySection = new Map();
+    mobileLinks.forEach((a) => linkBySection.set(a.getAttribute('data-section'), a));
+
+    const sectionEls = Array.from(linkBySection.keys())
+      .map((id) => document.getElementById(id))
+      .filter(Boolean);
+
+    if (sectionEls.length) {
+      const visibility = new Map(); // id -> ratio
+      sectionEls.forEach((s) => visibility.set(s.id, 0));
+
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => visibility.set(entry.target.id, entry.intersectionRatio));
+        // Pick the section with the highest visible ratio
+        let topId = null;
+        let topRatio = 0;
+        visibility.forEach((ratio, id) => {
+          if (ratio > topRatio) { topRatio = ratio; topId = id; }
+        });
+        linkBySection.forEach((link, id) => {
+          if (id === topId && topRatio > 0) link.setAttribute('aria-current', 'page');
+          else link.removeAttribute('aria-current');
+        });
+      }, { threshold: [0, 0.25, 0.5, 0.75, 1], rootMargin: '-80px 0px -45% 0px' });
+
+      sectionEls.forEach((el) => io.observe(el));
+    }
   }
 
   /* ---------------- Nav scroll state (transparent → solid) ---------------- */
