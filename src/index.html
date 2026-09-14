@@ -470,12 +470,23 @@
   </footer>
 
   <!-- ========== FLOATING WHATSAPP ========== -->
-  <a id="wa-float" href="https://wa.me/527757511053?text=Hola%20ARQTEGA%2C%20me%20interesa%20m%C3%A1s%20informaci%C3%B3n." target="_blank" rel="noopener"
-    aria-label="Escríbenos por WhatsApp"
-    class="fixed bottom-5 right-5 md:bottom-8 md:right-8 z-40 w-14 h-14 md:w-16 md:h-16 rounded-full bg-accent hover:bg-accent-deep text-white flex items-center justify-center shadow-float transition-[transform,background-color,opacity] duration-300 hover:scale-105"
-    data-show="true">
-    <svg class="w-7 h-7 md:w-8 md:h-8" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.4zM12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 5L2 22l5.2-1.4c1.4.8 3.1 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.2.8.9-3.1-.2-.3C3.6 14.7 3 13.4 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9z"/></svg>
-  </a>
+  <div class="wa-float-container fixed bottom-5 right-5 md:bottom-8 md:right-8 z-40 group">
+    <span class="wa-tooltip">Contact via WhatsApp</span>
+    <a id="wa-float" href="https://wa.me/527757511053?text=Hola%20ARQTEGA%2C%20me%20interesa%20m%C3%A1s%20informaci%C3%B3n." target="_blank" rel="noopener"
+       aria-label="Escríbenos por WhatsApp"
+       class="wa-button h-14 md:h-16 flex items-center transition-all duration-500 shadow-float group-hover:w-64 w-14 md:w-16 px-0 group-hover:px-4">
+
+      <!-- Logo Nest -->
+      <div class="wa-logo-nest w-10 h-10 md:w-12 md:h-12 flex items-center justify-center rounded-full transition-colors duration-300">
+        <img src="/src/brand_assets/whatsapp_logo_icon_186881.webp" alt="WhatsApp" class="w-6 h-6 md:w-7 md:h-7 object-contain">
+      </div>
+
+      <!-- Label -->
+      <span class="wa-label ml-3 font-display font-semibold text-sm md:text-base text-white">
+        Contact via WhatsApp
+      </span>
+    </a>
+  </div>
 
   <!-- ========== LIGHTBOX ========== -->
   <dialog id="lightbox" class="lightbox" aria-label="Galería del proyecto">
