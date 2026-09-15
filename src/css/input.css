@@ -310,6 +310,8 @@ img { display: block; max-width: 100%; }
 
 .wa-label {
   opacity: 0;
+  width: 0;
+  overflow: hidden;
   white-space: nowrap;
   transform: translateX(-10px);
   transition: opacity 300ms ease, transform 400ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -318,6 +320,8 @@ img { display: block; max-width: 100%; }
 
 .wa-button:hover .wa-label {
   opacity: 1;
+  width: auto;
+  overflow: visible;
   transform: translateX(0);
 }
 
