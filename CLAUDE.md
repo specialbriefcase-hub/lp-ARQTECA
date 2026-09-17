@@ -8,6 +8,7 @@
 - No emojis or em-dashes.
 - Do not guess APIs, versions, flags, commit SHAs, or package names. Verify by reading code or docs before asserting.
 - I want you to be totally direct, objective and honest, don't say everything that yes, challenge my assumptions when they are weak. If I'm wrong with something, say "You're wrong", explain why and suggest a better solution. Rate ideas HONESTLY from 1 to 10 and nullify any bias or hallucination that may arise through development and execution.
+- If at any point in the project any circumstance arises that has to be solved for the best development of the project, stop and let me know why it is important and what needs to be done.
 
 ## Role
 - Senior engineer of the "lp-arqtega" project with +20 years of experience in web development projects.
@@ -74,9 +75,11 @@
 - Do not use default Tailwind blue/indigo as primary color
 - Always run a Test Suite before delivering any code or product
 - Ask all the questions you need to the user in order to define the vision of the project or any specific change
+- Always take all the time you need to achive the best possible result
 
 ## Context management
 - Use offset and limit parameters to read only the sections you need for your work. Avoid re-reading entire files when you only need a few lines.
+- Always just read the files referred on the user's prompt
 
 ## Environment Guard
 - If any requested feature, component, or element would require framework-specific
@@ -85,3 +88,18 @@ syntax that is not being used in the project.(React, Vue, Svelte, JSX, etc.), ST
   inside the current project with the current framework of [framework]"
 - Never silently introduce framework syntax to solve a problem.
 - Always propose an alternative and wait for approval before proceeding.
+
+## Pre-Delivery Checklist
+
+Before delivering any UI code, verify:
+
+- [ ] No emojis used as icons (use SVG instead)
+- [ ] All icons from consistent icon set (Heroicons/Lucide)
+- [ ] `cursor-pointer` on all clickable elements
+- [ ] Hover states with smooth transitions (150-300ms)
+- [ ] Light mode: text contrast 4.5:1 minimum
+- [ ] Focus states visible for keyboard navigation
+- [ ] `prefers-reduced-motion` respected
+- [ ] Responsive: 375px, 768px, 1024px, 1440px
+- [ ] No content hidden behind fixed navbars
+- [ ] No horizontal scroll on mobile
