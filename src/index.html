@@ -490,29 +490,33 @@
 
   <!-- ========== LIGHTBOX ========== -->
   <dialog id="lightbox" class="lightbox" aria-label="Galería del proyecto">
-    <div class="relative w-full h-full flex items-center justify-center px-4 md:px-16 py-16 md:py-20">
+    <div class=" relative w-full h-full flex items-center justify-center px-4 md:px-16 py-16 md:py-20">
       <button type="button" data-lb-close aria-label="Cerrar"
         class="absolute top-4 right-4 md:top-6 md:right-6 w-11 h-11 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition-colors z-10">
         <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
       </button>
 
-      <button type="button" data-lb-prev aria-label="Imagen anterior"
-        class="absolute left-3 md:left-8 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition-colors z-10">
-        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M15 18l-6-6 6-6"/></svg>
-      </button>
-
-      <button type="button" data-lb-next aria-label="Siguiente imagen"
-        class="absolute right-3 md:right-8 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition-colors z-10">
-        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg>
-      </button>
-
       <figure class="w-full max-w-5xl flex flex-col items-center">
-        <img id="lb-image" src="" alt="" class="max-h-[70vh] w-auto max-w-full object-contain rounded shadow-2xl">
+        <div class="relative group">
+          <img id="lb-image" src="" alt="" class="max-h-[70vh] w-auto max-w-full object-contain rounded shadow-2xl transition-opacity duration-300">
+
+        <!-- Navigation arrows anchored to the image container -->
+        <button type="button" data-lb-prev aria-label="Imagen anterior"
+          class="absolute left-2 md:-left-15 top-1/2 -translate-y-1/2 w-10 h-10 md:w-12 md:h-12 rounded-full bg-ink/20 hover:bg-ink/40 text-white border border-white/10 backdrop-blur-md flex items-center justify-center transition-all duration-300 opacity-0 group-hover:opacity-100 z-10 scale-90 group-hover:scale-100">
+          <svg class="w-5 h-5 md:w-6 md:h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+
+        <button type="button" data-lb-next aria-label="Siguiente imagen"
+          class="absolute right-2 md:-right-15 top-1/2 -translate-y-1/2 w-10 h-10 md:w-12 md:h-12 rounded-full bg-ink/20 hover:bg-ink/40 text-white border border-white/10 backdrop-blur-md flex items-center justify-center transition-all duration-300 opacity-0 group-hover:opacity-100 z-10 scale-90 group-hover:scale-100">
+          <svg class="w-5 h-5 md:w-6 md:h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg>
+        </button>
+        </div>
+
         <figcaption class="mt-5 md:mt-7 text-center max-w-2xl">
           <p id="lb-project" class="text-accent-soft text-xs tracking-[0.25em] uppercase font-semibold"></p>
-          <p id="lb-title" class="mt-2 font-display font-bold text-2xl md:text-3xl text-white"></p>
-          <p id="lb-desc" class="mt-2 text-white/70 text-sm md:text-base leading-relaxed"></p>
-          <p id="lb-counter" class="mt-4 text-white/50 text-xs tracking-wider"></p>
+          <p id="lb-title" class="mt-2 font-display font-bold text-2xl md:text-3xl text-black"></p>
+          <p id="lb-desc" class="mt-2 text-brown text-sm md:text-base leading-relaxed"></p>
+          <p id="lb-counter" class="mt-4 text-gray/50 text-xs tracking-wider"></p>
         </figcaption>
       </figure>
     </div>

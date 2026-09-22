@@ -1,0 +1,249 @@
+- generic [ref=f2e1]:
+  - link "Saltar al contenido" [ref=f2e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f2e3]:
+    - navigation [ref=f2e4]:
+      - link "ARQTEGA inicio" [ref=f2e5] [cursor=pointer]:
+        - /url: "#inicio"
+        - img "ARQTEGA — Arquitectura y Construcción" [ref=f2e6]
+      - button "Abrir menú" [ref=f2e7]
+  - dialog [aria-hidden] [ref=f2e10]:
+    - generic [ref=f2e11]:
+      - link [ref=f2e12] [cursor=pointer]:
+        - /url: "#inicio"
+      - button [ref=f2e14]
+    - generic [ref=f2e17]:
+      - paragraph [ref=f2e18]: Navegación
+      - list [ref=f2e19]:
+        - listitem [ref=f2e20]:
+          - link [ref=f2e21] [cursor=pointer]:
+            - /url: "#inicio"
+            - generic [ref=f2e22]: "01"
+            - generic [ref=f2e23]: Inicio
+        - listitem [ref=f2e25]:
+          - link [ref=f2e26] [cursor=pointer]:
+            - /url: "#nosotros"
+            - generic [ref=f2e27]: "02"
+            - generic [ref=f2e28]: Nosotros
+        - listitem [ref=f2e30]:
+          - link [ref=f2e31] [cursor=pointer]:
+            - /url: "#servicios"
+            - generic [ref=f2e32]: "03"
+            - generic [ref=f2e33]: Servicios
+        - listitem [ref=f2e35]:
+          - link [ref=f2e36] [cursor=pointer]:
+            - /url: "#portafolio"
+            - generic [ref=f2e37]: "04"
+            - generic [ref=f2e38]: Portafolio
+        - listitem [ref=f2e40]:
+          - link [ref=f2e41] [cursor=pointer]:
+            - /url: "#cotizador"
+            - generic [ref=f2e42]: "05"
+            - generic [ref=f2e43]: Cotizador
+        - listitem [ref=f2e45]:
+          - link [ref=f2e46] [cursor=pointer]:
+            - /url: "#contacto"
+            - generic [ref=f2e47]: "06"
+            - generic [ref=f2e48]: Contacto
+      - generic [ref=f2e51]:
+        - generic [ref=f2e52]:
+          - paragraph [ref=f2e53]: Contacto directo
+          - link [ref=f2e54] [cursor=pointer]:
+            - /url: tel:+527757511053
+            - text: +52 775 751 1053
+          - link [ref=f2e55] [cursor=pointer]:
+            - /url: mailto:hola@arqtega.mx
+            - text: hola@arqtega.mx
+        - paragraph [ref=f2e56]: Tulancingo · Hidalgo
+        - link [ref=f2e57] [cursor=pointer]:
+          - /url: https://wa.me/527757511053?text=Hola%20ARQTEGA%2C%20me%20interesa%20cotizar%20mi%20proyecto.
+          - text: Cotizar por WhatsApp
+  - main [ref=f2e60]:
+    - generic [ref=f2e61]:
+      - img "Render exterior de proyecto ARQTEGA en Tulancingo" [ref=f2e62]
+      - generic [ref=f2e65]:
+        - paragraph [ref=f2e66]: Arquitectura · Construcción · BIM
+        - heading "Arquitectura que se construye con información, no con suposiciones." [level=1] [ref=f2e67]
+        - paragraph [ref=f2e68]: "En ARQTEGA diseñamos y construimos en Tulancingo, Hidalgo, con metodología BIM: ves tu proyecto antes de poner el primer ladrillo y controlas cada decisión."
+        - generic [ref=f2e69]:
+          - link "Cotiza tu proyecto" [ref=f2e70] [cursor=pointer]:
+            - /url: "#cotizador"
+          - link "Ver portafolio" [ref=f2e73] [cursor=pointer]:
+            - /url: "#portafolio"
+      - link "Desplazar hacia abajo" [ref=f2e74] [cursor=pointer]:
+        - /url: "#nosotros"
+    - generic [ref=f2e78]:
+      - generic [ref=f2e79]:
+        - img "Interior diseñado por ARQTEGA con bóveda de ladrillo y madera" [ref=f2e80]
+        - generic [ref=f2e82]:
+          - paragraph [ref=f2e83]: Casa Regional Mexicana · 2024
+          - paragraph [ref=f2e84]: 245 m² · Tulancingo
+      - generic [ref=f2e85]:
+        - paragraph [ref=f2e86]: Nosotros
+        - heading "Diseñamos y construimos con metodología BIM." [level=2] [ref=f2e87]
+        - generic [ref=f2e88]:
+          - paragraph [ref=f2e89]: "Somos un estudio de arquitectura y construcción en Tulancingo, Hidalgo, con cuatro años acompañando a familias y desarrolladores en proyectos residenciales y comerciales. Trabajamos diseño y obra bajo el mismo techo: una sola visión, una sola responsabilidad."
+          - paragraph [ref=f2e90]: La diferencia está en cómo lo hacemos. Modelamos cada proyecto en BIM antes de levantar un muro, así puedes recorrer tu casa o local en renders y maquetas digitales, revisar los planos por planta y entender el costo antes de empezar. Lo que ves en pantalla es lo que vas a recibir en obra.
+          - paragraph [ref=f2e91]: "Operamos en Tulancingo y el centro de Hidalgo: Mineral de la Reforma, Pachuca, Cuautepec, Singuilucan y municipios vecinos. Si tu terreno está en la región, hablamos el mismo idioma técnico y el mismo calendario."
+        - paragraph [ref=f2e92]: "\"Cuatro años construyendo con la precisión que tu proyecto merece.\""
+    - generic [ref=f2e94]:
+      - generic [ref=f2e95]:
+        - paragraph [ref=f2e96]: Servicios
+        - heading "Lo que hacemos." [level=2] [ref=f2e97]
+        - paragraph [ref=f2e98]: Cuatro servicios que cubren todo el ciclo de tu proyecto, desde el primer boceto hasta la entrega de llaves.
+      - list [ref=f2e99]:
+        - listitem [ref=f2e100]:
+          - heading "Diseño arquitectónico" [level=3] [ref=f2e104]
+          - paragraph [ref=f2e105]: Proyectos residenciales y comerciales con metodología BIM. Bocetos, anteproyecto y ejecutivo en un mismo modelo.
+        - listitem [ref=f2e106]:
+          - heading "Construcción" [level=3] [ref=f2e110]
+          - paragraph [ref=f2e111]: Ejecución de obra con supervisión técnica constante. Cronograma, costos y calidad bajo control semanal.
+        - listitem [ref=f2e112]:
+          - heading "Modelado BIM" [level=3] [ref=f2e116]
+          - paragraph [ref=f2e117]: Maquetas digitales, planos 2D y renders fotorrealistas. Visualiza el resultado antes de construir.
+        - listitem [ref=f2e118]:
+          - heading "Asesoría" [level=3] [ref=f2e122]
+          - paragraph [ref=f2e123]: Consultoría para clientes que desarrollan por su cuenta. Revisamos planos, presupuestos y contratistas.
+    - generic [ref=f2e125]:
+      - generic [ref=f2e126]:
+        - paragraph [ref=f2e127]: Portafolio
+        - heading "Proyectos que hablan por sí solos." [level=2] [ref=f2e128]
+        - paragraph [ref=f2e129]: Cada proyecto se entrega con renders, maquetas y planos ejecutivos. Toca una imagen para ver el recorrido completo.
+      - generic [ref=f2e130]:
+        - button "Casa Regional Mexicana — render exterior 01 Casa Regional Mexicana Residencia unifamiliar con bóveda de ladrillo, integración a patio y lenguaje regional contemporáneo. Tulancingo · 2024 · 245 m²" [ref=f2e131]:
+          - generic [ref=f2e132]:
+            - img "Casa Regional Mexicana — render exterior" [ref=f2e133]
+            - generic [ref=f2e134]: "01"
+          - generic [ref=f2e135]:
+            - heading "Casa Regional Mexicana" [level=3] [ref=f2e136]
+            - paragraph [ref=f2e137]: Residencia unifamiliar con bóveda de ladrillo, integración a patio y lenguaje regional contemporáneo.
+            - paragraph [ref=f2e138]: Tulancingo · 2024 · 245 m²
+        - button "Residencia Minimalista — render exterior 02 Residencia Minimalista Volúmenes puros, luz controlada y paleta monocromática. Una casa que se vive desde el interior. Pachuca · 2025 · 180 m²" [ref=f2e139]:
+          - generic [ref=f2e140]:
+            - img "Residencia Minimalista — render exterior" [ref=f2e141]
+            - generic [ref=f2e142]: "02"
+          - generic [ref=f2e143]:
+            - heading "Residencia Minimalista" [level=3] [ref=f2e144]
+            - paragraph [ref=f2e145]: Volúmenes puros, luz controlada y paleta monocromática. Una casa que se vive desde el interior.
+            - paragraph [ref=f2e146]: Pachuca · 2025 · 180 m²
+        - button "Local Comercial — render exterior 03 Local Comercial Adaptación de local comercial con fachada activa, doble altura y criterios de eficiencia energética. Tulancingo · 2025 · 95 m²" [ref=f2e147]:
+          - generic [ref=f2e148]:
+            - img "Local Comercial — render exterior" [ref=f2e149]
+            - generic [ref=f2e150]: "03"
+          - generic [ref=f2e151]:
+            - heading "Local Comercial" [level=3] [ref=f2e152]
+            - paragraph [ref=f2e153]: Adaptación de local comercial con fachada activa, doble altura y criterios de eficiencia energética.
+            - paragraph [ref=f2e154]: Tulancingo · 2025 · 95 m²
+    - generic [ref=f2e156]:
+      - generic [ref=f2e157]:
+        - paragraph [ref=f2e158]: Cotizador
+        - heading "Cuéntanos sobre tu proyecto." [level=2] [ref=f2e159]
+        - paragraph [ref=f2e160]: Selecciona dos datos y te enviamos un estimado inicial por WhatsApp en menos de 24 horas.
+        - generic [ref=f2e161]:
+          - generic [ref=f2e162]:
+            - generic [ref=f2e163]: Tipo de proyecto
+            - combobox "Tipo de proyecto" [ref=f2e164] [cursor=pointer]:
+              - option "Elige una opción" [disabled] [selected]
+              - option "Casa habitación"
+              - option "Local comercial"
+              - option "Remodelación"
+              - option "Otro"
+          - generic [ref=f2e165]:
+            - generic [ref=f2e166]: m² aproximados
+            - combobox "m² aproximados" [ref=f2e167] [cursor=pointer]:
+              - option "Elige un rango" [disabled] [selected]
+              - option "Menos de 100 m²"
+              - option "100 – 200 m²"
+              - option "200 – 400 m²"
+              - option "Más de 400 m²"
+          - button "Enviar por WhatsApp" [ref=f2e168]
+      - complementary [ref=f2e169]:
+        - generic [ref=f2e170]:
+          - paragraph [ref=f2e171]: O directo
+          - paragraph [ref=f2e172]: Escríbenos por WhatsApp y un arquitecto te atiende personalmente.
+          - link "775 751 1053" [ref=f2e173] [cursor=pointer]:
+            - /url: https://wa.me/527757511053?text=Hola%20ARQTEGA%2C%20me%20interesa%20m%C3%A1s%20informaci%C3%B3n.
+          - paragraph [ref=f2e176]: Lunes a viernes · 9:00 – 18:00
+    - generic [ref=f2e178]:
+      - generic [ref=f2e179]:
+        - paragraph [ref=f2e180]: Contacto
+        - heading "Hablemos." [level=2] [ref=f2e181]
+        - paragraph [ref=f2e182]: Tres canales abiertos. Elige el que prefieras y te respondemos lo antes posible.
+      - generic [ref=f2e183]:
+        - link [ref=f2e184] [cursor=pointer]:
+          - /url: https://wa.me/527757511053?text=Hola%20ARQTEGA%2C%20me%20interesa%20m%C3%A1s%20informaci%C3%B3n.
+          - paragraph [ref=f2e188]: WhatsApp
+          - paragraph [ref=f2e189]: Enviar mensaje
+          - paragraph [ref=f2e190]: 775 751 1053
+        - link [ref=f2e191] [cursor=pointer]:
+          - /url: https://instagram.com/arqtega
+          - paragraph [ref=f2e197]: Instagram
+          - paragraph [ref=f2e198]: "@arqtega"
+          - paragraph [ref=f2e199]: Renders, obras y proceso
+        - link [ref=f2e200] [cursor=pointer]:
+          - /url: https://facebook.com/arqtega
+          - paragraph [ref=f2e204]: Facebook
+          - paragraph [ref=f2e205]: /arqtega
+          - paragraph [ref=f2e206]: Proyectos y noticias
+      - paragraph [ref=f2e207]: Lunes a viernes · 9:00 – 18:00 · Tulancingo, Hidalgo.
+  - contentinfo [ref=f2e208]:
+    - generic [ref=f2e209]:
+      - generic [ref=f2e210]:
+        - img "ARQTEGA" [ref=f2e211]
+        - paragraph [ref=f2e212]: Arquitectura y construcción en Tulancingo, Hidalgo. Diseño + obra con metodología BIM.
+      - navigation "Navegación footer" [ref=f2e213]:
+        - paragraph [ref=f2e214]: Navegación
+        - list [ref=f2e215]:
+          - listitem [ref=f2e216]:
+            - link "Inicio" [ref=f2e217] [cursor=pointer]:
+              - /url: "#inicio"
+          - listitem [ref=f2e218]:
+            - link "Nosotros" [ref=f2e219] [cursor=pointer]:
+              - /url: "#nosotros"
+          - listitem [ref=f2e220]:
+            - link "Servicios" [ref=f2e221] [cursor=pointer]:
+              - /url: "#servicios"
+          - listitem [ref=f2e222]:
+            - link "Portafolio" [ref=f2e223] [cursor=pointer]:
+              - /url: "#portafolio"
+          - listitem [ref=f2e224]:
+            - link "Cotizador" [ref=f2e225] [cursor=pointer]:
+              - /url: "#cotizador"
+          - listitem [ref=f2e226]:
+            - link "Contacto" [ref=f2e227] [cursor=pointer]:
+              - /url: "#contacto"
+      - generic [ref=f2e228]:
+        - paragraph [ref=f2e229]: Síguenos
+        - list [ref=f2e230]:
+          - listitem [ref=f2e231]:
+            - link "WhatsApp" [ref=f2e232] [cursor=pointer]:
+              - /url: https://wa.me/527757511053
+          - listitem [ref=f2e235]:
+            - link "Instagram" [ref=f2e236] [cursor=pointer]:
+              - /url: https://instagram.com/arqtega
+          - listitem [ref=f2e241]:
+            - link "Facebook" [ref=f2e242] [cursor=pointer]:
+              - /url: https://facebook.com/arqtega
+    - generic [ref=f2e245]:
+      - paragraph [ref=f2e246]: © 2026 ARQTEGA · Arquitectura y Construcción
+      - paragraph [ref=f2e247]: Sitio desarrollado con metodología BIM.
+  - generic [ref=f2e248]:
+    - generic: Contacto via WhatsApp
+    - link "Escríbenos por WhatsApp":
+      - /url: https://wa.me/527757511053?text=Hola%20ARQTEGA%2C%20me%20interesa%20m%C3%A1s%20informaci%C3%B3n.
+      - generic:
+        - img "WhatsApp"
+      - generic: Contacto via WhatsApp
+  - dialog "Galería del proyecto" [ref=f2e252]:
+    - generic [ref=f2e253]:
+      - button "Cerrar" [active] [ref=f2e254]
+      - figure [ref=f2e257]:
+        - generic [ref=f2e258]:
+          - img "Casa Regional Mexicana — Render exterior" [ref=f2e259]
+          - button "Imagen anterior" [ref=f2e260]
+          - button "Siguiente imagen" [ref=f2e263]
+        - generic [ref=f2e266]:
+          - paragraph [ref=f2e267]: Casa Regional Mexicana
+          - paragraph [ref=f2e268]: Render exterior
+          - paragraph [ref=f2e269]: Vista exterior principal. Fachada con bóveda de ladrillo, integración a patio y lenguaje regional contemporáneo.
+          - paragraph [ref=f2e270]: 1 / 6

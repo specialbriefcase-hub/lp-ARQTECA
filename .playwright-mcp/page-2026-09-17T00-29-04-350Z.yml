@@ -1,0 +1,46 @@
+- generic [active] [ref=e1]:
+  - textbox "Search" [ref=e2]
+  - generic [ref=e3]:
+    - heading [level=1] [ref=e4]:
+      - link "~" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - text: /
+    - list [ref=e6]:
+      - listitem [ref=e7]:
+        - link "node_modules 9/8/2026 7:47:39 PM" [ref=e8] [cursor=pointer]:
+          - /url: /node_modules
+          - generic [ref=e9]: node_modules
+          - generic [ref=e10]: 9/8/2026 7:47:39 PM
+      - listitem [ref=e11]:
+        - link "scripts 8/5/2026 12:26:14 PM" [ref=e12] [cursor=pointer]:
+          - /url: /scripts
+          - generic [ref=e13]: scripts
+          - generic [ref=e14]: 8/5/2026 12:26:14 PM
+      - listitem [ref=e15]:
+        - link "src 9/16/2026 6:26:07 PM" [ref=e16] [cursor=pointer]:
+          - /url: /src
+          - generic [ref=e17]: src
+          - generic [ref=e18]: 9/16/2026 6:26:07 PM
+      - listitem [ref=e19]:
+        - link "temporary_screenshots 9/16/2026 5:53:23 PM" [ref=e20] [cursor=pointer]:
+          - /url: /temporary_screenshots
+          - generic [ref=e21]: temporary_screenshots
+          - generic [ref=e22]: 9/16/2026 5:53:23 PM
+      - listitem [ref=e23]:
+        - link "CLAUDE.md 6987 9/16/2026 6:00:12 PM" [ref=e24] [cursor=pointer]:
+          - /url: /CLAUDE.md
+          - generic [ref=e25]: CLAUDE.md
+          - generic [ref=e26]: "6987"
+          - generic [ref=e27]: 9/16/2026 6:00:12 PM
+      - listitem [ref=e28]:
+        - link "package-lock.json 35567 9/8/2026 7:46:04 PM" [ref=e29] [cursor=pointer]:
+          - /url: /package-lock.json
+          - generic [ref=e30]: package-lock.json
+          - generic [ref=e31]: "35567"
+          - generic [ref=e32]: 9/8/2026 7:46:04 PM
+      - listitem [ref=e33]:
+        - link "package.json 499 9/8/2026 7:46:04 PM" [ref=e34] [cursor=pointer]:
+          - /url: /package.json
+          - generic [ref=e35]: package.json
+          - generic [ref=e36]: "499"
+          - generic [ref=e37]: 9/8/2026 7:46:04 PM
