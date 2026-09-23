@@ -246,18 +246,23 @@ img { display: block; max-width: 100%; }
   transform: scale(0.985);
 }
 
-/* Reduced motion hardening for the drawer (global rule already kills most;
-   this guarantees an instant show/hide for users who opt out) */
-@media (prefers-reduced-motion: reduce) {
-  .menu-backdrop,
-  .menu-panel,
-  .menu-link,
-  .menu-eyebrow,
-  .menu-cta,
-  .menu-rule {
-    transition-duration: 0.001ms !important;
-    transition-delay: 0ms !important;
-  }
+/* Reset lightbox dialog to be truly full-screen */
+.lightbox {
+  width: 100vw;
+  height: 100vh;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: rgba(0, 0, 0, 0.9); /* Dark backdrop for gallery feel */
+  overflow: hidden;
+}
+
+/* Ensure the ::backdrop is also handled if needed,
+   though setting the dialog itself to 100vw/vh usually suffices */
+.lightbox::backdrop {
+  background: transparent;
 }
 
 
