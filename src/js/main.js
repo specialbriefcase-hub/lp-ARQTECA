@@ -4,8 +4,6 @@
 (() => {
   'use strict';
 
-  const WA_PHONE = '527757511053'; // 52 + 1 775 751 1053
-
   /* ---------------- Project data ---------------- */
   // Order per project: cover, render, maqueta PA, maqueta PB, plano PA, plano PB
   // Project 1 uses real brand assets; 2 and 3 use placehold.co branded tones.
@@ -327,19 +325,4 @@
       else if (e.key === 'Escape') { e.preventDefault(); closeLightbox(); }
     });
   }
-
-  /* ---------------- Cotizador → WhatsApp ---------------- */
-  const cotForm = document.getElementById('cotizador-form');
-  if (cotForm) {
-    cotForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const tipo = document.getElementById('tipo').value;
-      const m2 = document.getElementById('m2').value;
-      if (!tipo || !m2) return;
-      const msg = `Hola ARQTEGA, me interesa cotizar un proyecto.\n\nTipo: ${tipo}\nm² aproximados: ${m2}`;
-      const url = `https://wa.me/${WA_PHONE}?text=${encodeURIComponent(msg)}`;
-      window.open(url, '_blank', 'noopener');
-    });
-  }
-
 })();

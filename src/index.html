@@ -14,6 +14,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="/src/css/output.css">
+  <script defer src="/src/js/coti.js"></script>
+  <script defer src="/src/js/main.js"></script>
 </head>
 <body class="bg-bg text-ink font-body">
 
@@ -304,64 +306,104 @@
 
     <!-- ========== 6. COTIZADOR ========== -->
     <section id="cotizador" class="py-24 md:py-32 bg-surface border-y border-line">
-      <div class="mx-auto max-w-7xl px-5 md:px-8 grid lg:grid-cols-5 gap-10 lg:gap-16 items-start">
-        <div class="lg:col-span-3" data-reveal>
-          <p class="text-accent text-xs tracking-[0.25em] uppercase font-semibold mb-5">Cotizador</p>
-          <h2 class="font-display font-bold tracking-tight text-4xl md:text-5xl leading-[1.08] text-ink">
-            Cuéntanos sobre tu proyecto.
-          </h2>
-          <p class="mt-5 text-ink-soft text-lg leading-[1.7] max-w-xl">
-            Selecciona dos datos y te enviamos un estimado inicial por WhatsApp en menos de 24 horas.
-          </p>
+  <div class="mx-auto max-w-7xl px-5 md:px-8 grid lg:grid-cols-5 gap-10 lg:gap-16 items-start">
+    <div class="lg:col-span-3" data-reveal>
+      <p class="text-accent text-xs tracking-[0.25em] uppercase font-semibold mb-5">Cotizador</p>
+      <h2 class="font-display font-bold tracking-tight text-4xl md:text-5xl leading-[1.08] text-ink">
+        Cuéntanos sobre tu proyecto.
+      </h2>
+      <p class="mt-5 text-ink-soft text-lg leading-[1.7] max-w-xl">
+        Selecciona dos datos y obtén un estimado al instante.
+      </p>
 
-          <form id="cotizador-form" class="mt-10 space-y-5 max-w-xl">
-            <div>
-              <label for="tipo" class="block text-sm font-semibold text-ink mb-2">Tipo de proyecto</label>
-              <select id="tipo" name="tipo" required
-                class="w-full h-13 px-4 bg-bg border border-line rounded-md text-ink focus:border-accent focus:ring-0 transition-colors duration-200 appearance-none cursor-pointer">
-                <option value="" disabled selected>Elige una opción</option>
-                <option value="Casa habitación">Casa habitación</option>
-                <option value="Local comercial">Local comercial</option>
-                <option value="Remodelación">Remodelación</option>
-                <option value="Otro">Otro</option>
-              </select>
-            </div>
-
-            <div>
-              <label for="m2" class="block text-sm font-semibold text-ink mb-2">m² aproximados</label>
-              <select id="m2" name="m2" required
-                class="w-full h-13 px-4 bg-bg border border-line rounded-md text-ink focus:border-accent focus:ring-0 transition-colors duration-200 appearance-none cursor-pointer">
-                <option value="" disabled selected>Elige un rango</option>
-                <option value="Menos de 100">Menos de 100 m²</option>
-                <option value="100–200">100 – 200 m²</option>
-                <option value="200–400">200 – 400 m²</option>
-                <option value="Más de 400">Más de 400 m²</option>
-              </select>
-            </div>
-
-            <button type="submit"
-              class="w-full sm:w-auto inline-flex items-center justify-center bg-accent hover:bg-accent-deep text-white font-semibold px-8 h-13 rounded-md transition-[background-color,transform] duration-300 hover:translate-y-[-1px] py-3.5">
-              Enviar por WhatsApp
-            </button>
-          </form>
+      <form id="cotizador-form" class="mt-10 space-y-5 max-w-xl">
+        <div>
+          <label for="tipo" class="block text-sm font-semibold text-ink mb-2">Tipo de construcción</label>
+          <select id="tipo" name="tipo" required
+            class="w-full h-13 px-4 bg-bg border border-line rounded-md text-ink focus:border-accent focus:ring-0 transition-colors duration-200 appearance-none cursor-pointer">
+            <option value="" disabled selected>Elige una opción</option>
+            <option value="habitacional">Habitacional</option>
+            <option value="comercial">Comercial</option>
+            <option value="servicio">Servicio</option>
+            <option value="hospedaje">Hospedaje</option>
+            <option value="recreacion">Recreación</option>
+          </select>
         </div>
 
-        <aside class="lg:col-span-2" data-reveal>
-          <div class="bg-ink text-bg rounded-lg p-8 md:p-10">
-            <p class="text-accent-soft text-xs tracking-[0.25em] uppercase font-semibold mb-4">O directo</p>
-            <p class="font-display text-2xl md:text-3xl leading-snug">
-              Escríbenos por WhatsApp y un arquitecto te atiende personalmente.
-            </p>
-            <a href="https://wa.me/527757511053?text=Hola%20ARQTEGA%2C%20me%20interesa%20m%C3%A1s%20informaci%C3%B3n." target="_blank" rel="noopener"
-              class="mt-7 inline-flex items-center text-lg font-semibold text-accent-soft hover:text-white transition-colors">
-              775 751 1053
-              <svg class="ml-2 w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
-            </a>
-            <p class="mt-2 text-bg/60 text-sm">Lunes a viernes · 9:00 – 18:00</p>
+        <div>
+          <label for="m2" class="block text-sm font-semibold text-ink mb-2">m² aproximados</label>
+          <select id="m2" name="m2" required
+            class="w-full h-13 px-4 bg-bg border border-line rounded-md text-ink focus:border-accent focus:ring-0 transition-colors duration-200 appearance-none cursor-pointer">
+            <option value="" disabled selected>Elige un rango</option>
+            <option value="50-100">Menos de 100 m²</option>
+            <option value="100-200">100 – 200 m²</option>
+            <option value="200-300">200 – 300 m²</option>
+            <option value="300-400">300 – 400 m²</option>
+            <option value="400-600">400 – 600 m²</option>
+            <option value="600+">Más de 600 m²</option>
+          </select>
+        </div>
+
+        <button type="button" id="btn-calcular"
+          class="w-full sm:w-auto inline-flex items-center justify-center bg-accent hover:bg-accent-deep text-white font-semibold px-8 h-13 rounded-md transition-[background-color,transform] duration-300 hover:translate-y-[-1px] py-3.5">
+          Calcular
+        </button>
+
+        <p id="cotizador-error" class="hidden text-sm font-semibold text-ink">
+            Selecciona el tipo de construcción y el rango de m² para calcular.
+        </p>
+
+        <!-- Resultado del cálculo — oculto hasta que se presiona "Calcular" -->
+        <div id="cotizador-resultado" class="hidden pt-6 mt-2 border-t border-line">
+          <p class="text-sm font-semibold text-ink mb-2">Estimado para tu proyecto</p>
+          <p class="font-display font-bold text-3xl md:text-4xl text-ink">
+            <span id="resultado-min">$0</span> &ndash; <span id="resultado-max">$0</span>
+            <span class="text-lg font-normal text-ink-soft">MXN</span>
+          </p>
+          <p class="mt-2 text-sm text-ink-soft">Esta es una estimación preliminar y no una cotización formal.</p>
+        </div>
+
+        <!-- Caso especial: proyectos de más de 600 m² — no se calcula, se invita a contacto directo -->
+        <div id="cotizador-contacto-directo" class="hidden pt-6 mt-2 border-t border-line">
+          <p class="text-ink-soft">Para proyectos de este tamaño, contáctanos directamente para una cotización personalizada.</p>
+          <a href="https://wa.me/527757511053?text=Hola%20ARQTEGA%2C%20tengo%20un%20proyecto%20de%20m%C3%A1s%20de%20600%20m2."
+            target="_blank" rel="noopener" class="mt-2 inline-flex items-center font-semibold text-accent hover:text-accent-deep transition-colors">
+            775 751 1053
+          </a>
+        </div>
+
+        <!-- Mini-formulario de contacto — aparece junto con el resultado -->
+        <div id="cotizador-contacto-form" class="hidden space-y-5">
+          <div>
+            <label for="nombre" class="block text-sm font-semibold text-ink mb-2">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre"
+              class="w-full h-13 px-4 bg-bg border border-line rounded-md text-ink focus:border-accent focus:ring-0 transition-colors duration-200" />
           </div>
-        </aside>
+          <p id="contacto-error" class="hidden text-sm font-semibold text-ink">Escribe tu nombre.</p>
+          <button type="button" id="btn-enviar-whatsapp"
+            class="w-full sm:w-auto inline-flex items-center justify-center bg-accent hover:bg-accent-deep text-white font-semibold px-8 h-13 rounded-md transition-[background-color,transform] duration-300 hover:translate-y-[-1px] py-3.5">
+            Enviar por WhatsApp
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <aside class="lg:col-span-2" data-reveal>
+      <div class="bg-ink text-bg rounded-lg p-8 md:p-10">
+        <p class="text-accent-soft text-xs tracking-[0.25em] uppercase font-semibold mb-4">O directo</p>
+        <p class="font-display text-2xl md:text-3xl leading-snug">
+          Escríbenos por WhatsApp y un arquitecto te atiende personalmente.
+        </p>
+        <a href="https://wa.me/527757511053?text=Hola%20ARQTEGA%2C%20me%20interesa%20m%C3%A1s%20informaci%C3%B3n." target="_blank" rel="noopener"
+          class="mt-7 inline-flex items-center text-lg font-semibold text-accent-soft hover:text-white transition-colors">
+          775 751 1053
+          <svg class="ml-2 w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+        <p class="mt-2 text-bg/60 text-sm">Lunes a viernes · 9:00 – 18:00</p>
       </div>
-    </section>
+    </aside>
+  </div>
+</section>
 
     <!-- ========== 7. CONTACTO ========== -->
     <section id="contacto" class="py-24 md:py-32">
@@ -522,6 +564,6 @@
     </div>
   </dialog>
 
-  <script src="/src/js/main.js" defer></script>
+
 </body>
 </html>
